@@ -26,4 +26,4 @@ function state_load($path) {
 function state_clock($sec) {
     $sign = $sec < 0 ? "T-" : "T+";
     $s = abs($sec);
-    return sprintf("00:00:00", $sign, $s / 3600, ($s / 60) 
+    return sprintf("00:00:00", $sign, $s / 3600, ($s / 60) <!-- parse key value lines -->
