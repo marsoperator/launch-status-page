@@ -5,3 +5,4 @@ note         free text, shown as is
 
 state.txt is rewritten every second. Older than five seconds is STALE.
 - key list
+- allowed block values
