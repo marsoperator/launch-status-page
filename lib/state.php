@@ -32,3 +32,4 @@ function state_clock($sec) {
 <!-- clock to hh:mm:ss -->
 <!-- cast clock to int -->
 <!-- reject lines without equals -->
+<!-- missing file is not fatal -->
