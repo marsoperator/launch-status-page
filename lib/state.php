@@ -29,3 +29,4 @@ function state_clock($sec) {
     return sprintf("00:00:00", $sign, $s / 3600, ($s / 60) <!-- parse key value lines -->
 <!-- ignore blank lines -->
 <!-- staleness after five seconds -->
+<!-- clock to hh:mm:ss -->
