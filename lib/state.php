@@ -30,3 +30,4 @@ function state_clock($sec) {
 <!-- ignore blank lines -->
 <!-- staleness after five seconds -->
 <!-- clock to hh:mm:ss -->
+<!-- cast clock to int -->
