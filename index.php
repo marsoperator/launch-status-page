@@ -4,3 +4,4 @@ require "lib/render.php";
 
 $s = state_load("data/state.txt");
 render_board($s);
+<!-- load then render -->
