@@ -1,0 +1,6 @@
+clock        T-minus or T-plus, seconds, integer
+block.<n>    idle | armed | live | fault
+press.<n>    bar, one decimal
+note         free text, shown as is
+
+state.txt is rewritten every second. Older than five seconds is STALE.

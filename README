@@ -1,0 +1,29 @@
+launch-status-page
+
+Reads data/state.txt and draws the board: block states, pressures, the clock. Runs on the pad
+network only, no auth, no database.
+
+  php -S 0.0.0.0:8080
+
+state.txt is rewritten by the sequencer every second, one key=value per line. The page re-reads it
+on every request and never caches. If the file is older than five seconds the header goes red and
+says STALE.
+
+Keys
+
+  clock        T-minus or T-plus, seconds
+  block.<n>    one of idle, armed, live, fault
+  press.<n>    bar
+  note         free text, shown as is
+
+Layout
+
+  index.php        request handling, staleness check
+  lib/state.php    parse and validate state.txt
+  lib/render.php   html for the board
+  templates/       header, block row, footer
+  doc/state.txt    key list and allowed values
+- usage
+- keys
+- layout
+- pad network only

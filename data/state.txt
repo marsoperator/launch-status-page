@@ -1,0 +1,5 @@
+clock=-120
+block.1=armed
+block.2=idle
+press.1=298
+note=chill in progress
