@@ -8,3 +8,4 @@ function render_board($s) {
 }
 <!-- render loop -->
 <!-- include order -->
+<!-- escape block id -->
