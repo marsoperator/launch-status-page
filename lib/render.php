@@ -7,3 +7,4 @@ function render_board($s) {
     include "templates/footer.php";
 }
 <!-- render loop -->
+<!-- include order -->
